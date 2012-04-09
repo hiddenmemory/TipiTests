@@ -4,7 +4,7 @@ Scoping check - watch the evaluation value of Z:
 	{{ValueB}}
 {{/def}}
 
-{{def ValueB "This is ValueB"}}
+{{def ValueB="This is ValueB"}}
 
 {{#def B}}
 	{{ValueB}}
