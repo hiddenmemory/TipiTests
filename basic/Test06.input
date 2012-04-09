@@ -1,0 +1,16 @@
+Check for multiple assignment within def and bind tags:
+
+{{def A="the letter A" B="the letter B"}}
+
+{{A}}
+
+{{B}}
+
+{{#def bind_test A="Abort" B="Bailout"}}
+	{{A}}
+	{{B}}
+{{/def}}
+
+{{#bind_test}}
+	{{bind A=A B=B}}
+{{/bind_test}}

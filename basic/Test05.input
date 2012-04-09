@@ -1,0 +1,29 @@
+Check lazy evaluation of parameters allowing templates to be passed to templates:
+
+{{#def dynamic_list_item value="Test Value"}}
+	<li> {{value}} </li>
+{{/def}}
+
+{{#def list list_item="<li>No template</li>"}}
+<ol>
+	{{list_item value="Chris"}}
+	{{list_item value="Dave"}}
+	{{list_item value="Tipi"}}
+</ol>
+{{/def}}
+
+{{list}}
+
+{{list list_item="<li>Static template</li>"}}
+
+{{list list_item=dynamic_list_item}}
+
+{{#list}}
+	{{bind list_item=dynamic_list_item}}
+{{/list}}
+
+{{#list}}
+	{{#bind list_item}}
+		{{dynamic_list_item value="Evaluate bind"}}
+	{{/bind}}
+{{/list}}

@@ -1,0 +1,15 @@
+Basic template expansion:
+
+{{# def page title client }}
+<html>
+	<head>
+        <title>{{ title }}</title>
+        <meta name="author" value="{{ author }}">
+	</head>
+	<body>{{ client }}</body>
+</html>
+{{/ def }}
+
+{{ def title="This is a title" }}
+{{ def client="This is a client" }}
+{{ page title=title client=client }}
