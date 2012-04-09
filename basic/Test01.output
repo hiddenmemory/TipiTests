@@ -1,0 +1,15 @@
+Basic template expansion:
+
+
+
+
+
+
+<html>
+	<head>
+        <title>This is a title</title>
+        <meta name="author" value="">
+	</head>
+	<body>This is a client</body>
+</html>
+

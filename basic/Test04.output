@@ -1,0 +1,48 @@
+Test for named parameters, check against bind pollution:
+
+
+
+
+
+
+
+
+-------------------
+No arguments:
+
+<title>Default Title</title>
+<content>Default Content</content>
+<pollution-level>Pollution free zone</pollution-level>
+
+-------------------
+
+-------------------
+Inline arguments:
+
+<title>Inline Title</title>
+<content>Inline Content</content>
+<pollution-level>Pollution free zone</pollution-level>
+
+-------------------
+
+-------------------
+Inline and bind arguments:
+
+<title>Inline and bind</title>
+<content>
+	
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+</content>
+<pollution-level>Pollution free zone</pollution-level>
+
+-------------------
+
+-------------------
+Inline and bind arguments:
+
+<title>Inline and bind</title>
+<content>Bound content</content>
+<pollution-level>Pollution free zone</pollution-level>
+
+-------------------

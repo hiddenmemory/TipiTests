@@ -1,0 +1,39 @@
+Scoping check - watch the evaluation value of Z:
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+	Begin X
+	
+	Begin Y
+	
+	
+		[1] Z has been here:
+		
+		Z has been here.
+	
+		Begin Z
+		
+		[2] Z hath been here:
+		
+			Z hath been here.
+		
+	
+	[3] Z has been here:
+	
+		Z has been here.
+	

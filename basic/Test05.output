@@ -1,0 +1,68 @@
+Check lazy evaluation of parameters allowing templates to be passed to templates:
+
+
+
+
+
+
+<ol>
+	<li>No template</li>
+	<li>No template</li>
+	<li>No template</li>
+</ol>
+
+
+
+<ol>
+	<li>Static template</li>
+	<li>Static template</li>
+	<li>Static template</li>
+</ol>
+
+
+
+<ol>
+	
+	<li> Chris </li>
+
+	
+	<li> Dave </li>
+
+	
+	<li> Tipi </li>
+
+</ol>
+
+
+
+<ol>
+	
+	<li> Chris </li>
+
+	
+	<li> Dave </li>
+
+	
+	<li> Tipi </li>
+
+</ol>
+
+
+
+<ol>
+	
+		
+	<li> Evaluate bind </li>
+
+	
+	
+		
+	<li> Evaluate bind </li>
+
+	
+	
+		
+	<li> Evaluate bind </li>
+
+	
+</ol>

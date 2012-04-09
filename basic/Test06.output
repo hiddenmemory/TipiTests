@@ -1,0 +1,14 @@
+Check for multiple assignment within def and bind tags:
+
+
+
+the letter A
+
+the letter B
+
+
+
+
+	the letter A
+	the letter B
+
