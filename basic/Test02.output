@@ -8,7 +8,7 @@ Environment capture within the templates, more complicated invocation:
 <html>
 	<head>
         <title>title</title>
-        <meta name="author" value="">
+        <meta name="author" value="Chris Ross">
 	</head>
 	<body>
 		<h1></h1>

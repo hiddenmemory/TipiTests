@@ -1,6 +1,6 @@
 Environment capture within the templates, more complicated invocation:
 
-{{def author "Chris Ross"}}
+{{def author="Chris Ross"}}
 
 {{#def case_study title client_cs description_cs platform_cs testimonial_cs literal testvalue }}
 <html>
