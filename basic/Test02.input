@@ -1,6 +1,6 @@
 Environment capture within the templates, more complicated invocation:
 
-{{def author "Chris Ross"}}
+{{def author="Chris Ross"}}
 
 {{#def case_study title client_cs description_cs platform_cs testimonial_cs literal testvalue }}
 <html>
@@ -30,12 +30,12 @@ Environment capture within the templates, more complicated invocation:
 </html>
 {{/def}}
 
-{{#case_study 
-	title=title 
-	client_cs="" 
-	description_cs="This is a description_cs" 
+{{#case_study
+	title=title
+	client_cs=""
+	description_cs="This is a description_cs"
 	platform_cs="iPhone, iPad"
-	testimonial_cs="These guys rocked it" 
+	testimonial_cs="These guys rocked it"
 	literal="v1.0"
 	}}
 	{{# bind testvalue }}
