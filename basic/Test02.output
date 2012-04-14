@@ -7,7 +7,7 @@ Environment capture within the templates, more complicated invocation:
 
 <html>
 	<head>
-        <title>title</title>
+        <title></title>
         <meta name="author" value="Chris Ross">
 	</head>
 	<body>
@@ -32,6 +32,7 @@ Environment capture within the templates, more complicated invocation:
 		version v1.0
 	</body>
 </html>
+
 
 
 
