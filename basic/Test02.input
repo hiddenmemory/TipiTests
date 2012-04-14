@@ -47,4 +47,4 @@ Environment capture within the templates, more complicated invocation:
 
 {{ foo }}
 
-{{ // This is a comment }}
+{{ comment This is a comment }}
